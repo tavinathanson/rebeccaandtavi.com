@@ -2,7 +2,7 @@
 title: "Getting There"
 bg: three
 color: black
-fa-icon: toggle-on
+circlephoto: circlephoto2
 ---
 
 Travel stuff
