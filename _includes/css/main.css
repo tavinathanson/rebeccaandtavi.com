@@ -198,14 +198,15 @@ nav ul li:hover, nav ul li.active {
   border-radius:50%;
   -moz-border-radius:50%;
   -webkit-border-radius:50%;
-  box-shadow: 0px 1px 15px rgba(0,0,0,0.05);
-  background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAFCAYAAACNbyblAAAAF0lEQVQIHWP8//+/MQMaYELjg7kUCgIASm8DOqGzfp8AAAAASUVORK5CYII=);
+  box-shadow: 5px 5px 15px rgba(0,0,0,0.3);
+  background-image: url("img/gettingthere.jpg");
+  background-size: cover;
 }
 
 .sectiondivider {
   width:270px;
   height:270px;
-  padding:15px;
+  padding:17px;
   position:absolute;
   top:-135px;
   left:50%;
@@ -224,14 +225,16 @@ nav ul li:hover, nav ul li.active {
   position: static;
   margin-top: -8px;
 }
-.sectiondivider .fa-circle { color: #fff; }
+.sectiondivider .fa-circle {
+  color:rgba(255, 255, 255, 0.2);
+}
 
 .sectiondivider h5 {
   font-size:15px;
   font-weight:700;
   text-transform:uppercase;
   position:absolute;
-  bottom:50px;
+  bottom:122px;
   left:auto;
   text-align:center;
   display:block;
@@ -334,7 +337,7 @@ nav ul li:hover, nav ul li.active {
   .sectiondivider {
     width:200px;
     height:200px;
-    padding:15px;
+    padding:18px;
     top:-100px;
     margin-left:-100px;
   }
@@ -348,7 +351,7 @@ nav ul li:hover, nav ul li.active {
   }
   .sectiondivider h5 {
     font-size:15px;
-    bottom:30px;
+    bottom:86px;
     width:170px
   }
 
