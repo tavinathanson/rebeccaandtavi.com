@@ -198,9 +198,27 @@ nav ul li:hover, nav ul li.active {
   border-radius:50%;
   -moz-border-radius:50%;
   -webkit-border-radius:50%;
-  box-shadow: 5px 5px 15px rgba(0,0,0,0.3);
-  background-image: url("img/gettingthere.jpg");
   background-size: cover;
+}
+
+.circlephoto1 {
+  background-image: url("img/lighthouse.jpg");
+}
+
+.circlephoto2 {
+  background-image: url("img/capetown.jpg");
+}
+
+.circlephoto3 {
+  background-image: url("img/constantia.jpg");
+}
+
+.circlephoto4 {
+  background-image: url("img/tavirebeccaanimated.gif");
+}
+
+.circlephoto5 {
+  background-image: url("img/engagement.jpg");
 }
 
 .sectiondivider {
@@ -220,26 +238,24 @@ nav ul li:hover, nav ul li.active {
   margin-top: -20px;
 }
 
-.sectiondivider .fa-stack {
-  font-size: 130px;
-  position: static;
-  margin-top: -8px;
-}
-.sectiondivider .fa-circle {
-  color:rgba(255, 255, 255, 0.2);
-}
-
 .sectiondivider h5 {
+  color: #000;
   font-size:15px;
   font-weight:700;
   text-transform:uppercase;
   position:absolute;
-  bottom:122px;
-  left:auto;
+  bottom:50px;
+  left:44px;
   text-align:center;
   display:block;
   z-index:6;
-  width:240px;
+  width:180px;
+}
+
+.circle-title {
+  border-radius: 15px 15px 15px 15px;
+  background: rgba(255,255,255,0.5);
+  padding: 5px;
 }
 
 .sectiondivider.imaged {
@@ -350,9 +366,10 @@ nav ul li:hover, nav ul li.active {
     margin-top: -14px;
   }
   .sectiondivider h5 {
-    font-size:15px;
-    bottom:86px;
-    width:170px
+    font-size:13px;
+    bottom:40px;
+    width:140px;
+    left:30px;
   }
 
   .columned {
