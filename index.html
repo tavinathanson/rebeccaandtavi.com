@@ -13,18 +13,27 @@
   <link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
   {% if site.favicon %}<link rel="shortcut icon" href="{{ site.favicon }}" type="image/x-icon">{% endif %}
 	{% if site.touch_icon %}<link rel="apple-touch-icon" href="{{ site.touch_icon }}">{% endif %}
+  <script type="text/javascript">
+    function resizePhoto() {
+      $(document).ready(function() {
+        $(window).resize(function() {
+          $("#bgphoto").css('padding-top', $("nav").height());
+        }).resize();
+      });
+    }
+  </script>
 </head>
-<body>
+<body onload="resizePhoto()">
   <div id="main">
-
     <nav><ul>
       {% for node in site.posts reversed %}
         {% capture id %}{{ node.id | remove:'/' | downcase }}{% endcapture %}
         <li class="p-{{id}}"><a href="#{{id}}">{{node.title}}</a></li>
       {% endfor %}
     </ul></nav>
-
-
+    <div id="bgphoto">
+      <img src="img/tavirebecca.jpg" class="bgphotoimg">
+    </div>
     {% for page in site.posts reversed %}
       {% capture id %}{{ page.id | remove:'/' | downcase }}{% endcapture %}
       <div id="{{id}}" class="section p-{{id}}">
