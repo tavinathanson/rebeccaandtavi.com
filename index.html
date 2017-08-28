@@ -50,7 +50,7 @@
     }
   </script>
 </head>
-<body onload="resizePhoto(); hideMain(); setChanger(); pickDate(); ">
+<body onload="resizePhoto(); //hideMain(); setChanger(); pickDate(); ">
   <div id="password">
     <div id="passwordform">
       <p>
@@ -69,10 +69,13 @@
     <div id="bgphoto">
       <img src="img/tavirebecca.jpg" class="bgphotoimg">
     </div>
+    <div id="col">
     {% for page in site.posts reversed %}
       {% capture id %}{{ page.id | remove:'/' | downcase }}{% endcapture %}
       {% if page.isfirst %}
       <div id="{{id}}" class="section firstsection p-{{id}}">
+      {% elsif page.islast %}
+      <div id="{{id}}" class="section lastsection p-{{id}}">
       {% else %}
       <div id="{{id}}" class="section p-{{id}}">
       {% endif %}
@@ -87,7 +90,8 @@
           {{ page.content }}
         </div>
       </div>
-    {% endfor %}
+      {% endfor %}
+    </div>
   </div>
 
 {% include analytics.html %}

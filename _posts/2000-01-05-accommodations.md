@@ -1,8 +1,8 @@
 ---
 title: "Accommodations"
-bg: four
+bg: five
+style: left
 color: black
 circlephoto: circlephoto4
 ---
-
-Alright, you've got a clean copy and are ready to push some schmancy pages for the world to ogle at.
+We have reserved a block of rooms at the Hyatt at $129/night. If you plan to stay at the Hyatt, please reserve your rooms as soon as possible using this link. The rooms are refundable up until 24hrs before your stay. 

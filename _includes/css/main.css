@@ -1,6 +1,17 @@
 html { box-sizing: border-box; }
 *, *:before, *:after { box-sizing: inherit; }
 
+html { max-width: 700px; margin: auto; }
+body {
+    text-align: center;
+    background-image: url("img/bg.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center; 
+    background-size: cover;
+}
+#col { max-width: 700px; margin: auto; opacity: 0.85; }
+
 @font-face {
     font-family: karine; src: url("fnt/karine_aime_les_chocolats.ttf");
 }
@@ -68,7 +79,7 @@ hr {
   border-color: {{ site.colors.black }};
 }
 
-.container { word-wrap: break-word; }
+.container { word-wrap: break-word; width: 100%; }
 .center { text-align: center; }
 .left, .container .left { text-align: left; }
 
@@ -195,12 +206,12 @@ nav ul li:hover, nav ul li.active {
 
 .wedding h1 {
   font-family: karine;
-  font-size: 200px;
+  font-size: 180px;
 }
 
 .wedding h2 {
   padding-top: 80px;
-  font-size: 40px;
+  font-size: 35px;
 }
 
 .section {
@@ -209,10 +220,15 @@ nav ul li:hover, nav ul li.active {
   width:100%;
   min-height:300px;
   padding:210px 0;
+  padding-top: 190px;
 }
 
 .firstsection {
   padding-top: 100px;
+}
+
+.lastsection {
+  padding-bottom: 30px;
 }
 
 .bgphotoimg {
@@ -372,11 +388,6 @@ nav ul li:hover, nav ul li.active {
   }
 }
 
-/* tiny size (phones) */
-@media only screen and (max-width: 380px) {
-  nav ul li { min-width:90px; line-height:20px; }
-}
-
 /* anything not desktop */
 @media only screen and (max-width: 767px) {
 	.container h1 { font-size: 30px; }
@@ -384,7 +395,7 @@ nav ul li:hover, nav ul li.active {
 	.container h3 { font-size: 20px; }
 	.container h4 { font-size: 18px; }
 
-  .section { padding:130px 0; }
+  .section { padding:130px 0; padding-bottom: 150px; }
 
   .firstsection {
     padding-top: 50px;
@@ -397,7 +408,7 @@ nav ul li:hover, nav ul li.active {
 
   .wedding h1 {
     font-family: karine;
-    font-size: 80px;
+    font-size: 100px;
   }
 
   .wedding h2 {
@@ -433,4 +444,14 @@ nav ul li:hover, nav ul li.active {
     -moz-column-count:    2;
     column-count:         2;
   }
+}
+
+/* tiny size (phones) */
+@media only screen and (max-width: 380px) {
+    nav ul li { min-width:90px; line-height:20px; }
+
+    .wedding h1 {
+      font-family: karine;
+      font-size: 80px;
+    }
 }
