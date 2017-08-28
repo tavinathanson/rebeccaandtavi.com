@@ -2,7 +2,7 @@
 title: "Accommodations"
 bg: four
 color: black
-circlephoto: circlephoto3
+circlephoto: circlephoto4
 ---
 
 Alright, you've got a clean copy and are ready to push some schmancy pages for the world to ogle at.

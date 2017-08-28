@@ -2,7 +2,7 @@
 title: "Wedding Events"
 bg: five
 color: black
-circlephoto: circlephoto4
+circlephoto: circlephoto2
 ---
 
 Test
