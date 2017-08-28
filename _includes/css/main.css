@@ -395,6 +395,34 @@ nav ul li:hover, nav ul li.active {
     padding-top: 50px;
   }
 
+  #password {
+    padding-top: 50px;
+    text-align: center;
+  }
+  
+  #passwordform {
+    background-color: #f0f0f0;
+    padding: 10px;
+    padding-left: 14px;
+    font-size: 18px;
+    border: 1px solid #000;
+    width: 290px;
+    height: 130px;
+    margin: 10px;
+    display: inline-block;
+  }
+  
+  #password #datepicker {
+    width: 200px;
+    float: left;
+    margin-right: 10px;
+    height: 40px;
+  }
+  
+  #password #datesubmit {
+    height: 40px;
+  }
+
   .wedding h1 {
     font-family: karine;
     font-size: 80px;
