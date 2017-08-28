@@ -4,12 +4,13 @@ html { box-sizing: border-box; }
 html { max-width: 700px; margin: auto; }
 body {
     text-align: center;
-    background-image: url("img/bg.jpg");
+    background-image: url("img/bg_smaller.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center; 
     background-size: cover;
 }
+#main { display: none; }
 #col { max-width: 700px; margin: auto; opacity: 0.85; }
 
 @font-face {
@@ -206,12 +207,12 @@ nav ul li:hover, nav ul li.active {
 
 .wedding h1 {
   font-family: karine;
-  font-size: 180px;
+  font-size: 160px;
 }
 
 .wedding h2 {
   padding-top: 80px;
-  font-size: 35px;
+  font-size: 30px;
 }
 
 .section {
@@ -220,6 +221,8 @@ nav ul li:hover, nav ul li.active {
   width:100%;
   min-height:300px;
   padding:210px 0;
+  padding-left: 40px;
+  padding-right: 40px;
   padding-top: 190px;
 }
 
