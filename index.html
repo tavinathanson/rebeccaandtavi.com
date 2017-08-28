@@ -44,7 +44,11 @@
     </div>
     {% for page in site.posts reversed %}
       {% capture id %}{{ page.id | remove:'/' | downcase }}{% endcapture %}
+      {% if page.isfirst %}
+      <div id="{{id}}" class="section firstsection p-{{id}}">
+      {% else %}
       <div id="{{id}}" class="section p-{{id}}">
+      {% endif %}
         {% if page.circlephoto %}
         <div class="subtlecircle sectiondivider {{ page.circlephoto }}">
           <h5 class="circle-title">

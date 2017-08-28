@@ -1,6 +1,10 @@
 html { box-sizing: border-box; }
 *, *:before, *:after { box-sizing: inherit; }
 
+@font-face {
+    font-family: karine; src: url("fnt/karine_aime_les_chocolats.ttf");
+}
+
 /* ---------------------------*/
 /* ----- Special Styles ----- */
 /* ---------------------------*/
@@ -167,6 +171,17 @@ nav ul li:hover, nav ul li.active {
 
 /* ----- sections/articles ----- */
 
+.wedding h1 {
+  font-family: karine;
+  font-size: 140px;
+}
+
+.wedding h2 {
+  padding-top: 50px;
+  font-family: times;
+  font-size: 40px;
+}
+
 .section {
   position:relative;
   display:block;
@@ -175,7 +190,8 @@ nav ul li:hover, nav ul li.active {
   padding:210px 0;
 }
 
-.section:first-of-type {
+.firstsection {
+  padding-top: 80px;
 }
 
 .bgphotoimg {
@@ -255,7 +271,7 @@ nav ul li:hover, nav ul li.active {
 .circle-title {
   border-radius: 15px 15px 15px 15px;
   background: rgba(255,255,255,0.5);
-  padding: 5px;
+  padding: 5px 5px 4px 5px;
 }
 
 .sectiondivider.imaged {
@@ -348,8 +364,23 @@ nav ul li:hover, nav ul li.active {
 	.container h3 { font-size: 20px; }
 	.container h4 { font-size: 18px; }
 
-
   .section { padding:130px 0; }
+
+  .firstsection {
+    padding-top: 50px;
+  }
+
+  .wedding h1 {
+    font-family: karine;
+    font-size: 100px;
+  }
+
+  .wedding h2 {
+    padding-top: 20px;
+    font-family: Railway;
+    font-size: 30px;
+  }
+
   .sectiondivider {
     width:200px;
     height:200px;
