@@ -170,6 +170,10 @@ nav ul li:hover, nav ul li.active {
 
 /* ----- sections/articles ----- */
 
+#password {
+  padding: 10px;
+}
+
 .wedding h1 {
   font-family: karine;
   font-size: 200px;
