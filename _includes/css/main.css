@@ -170,6 +170,10 @@ nav ul li:hover, nav ul li.active {
 
 /* ----- sections/articles ----- */
 
+#password {
+  display: none;
+}
+
 #passwordform {
   text-align: left;
   background-color: #f0f5ff;
@@ -184,13 +188,9 @@ nav ul li:hover, nav ul li.active {
 }
 
 #password #datepicker {
-  width: 200px;
+  width: 100%;
   height: 40px;
   float: left;
-}
-
-#password #datesubmit {
-  height: 40px;
 }
 
 .wedding h1 {

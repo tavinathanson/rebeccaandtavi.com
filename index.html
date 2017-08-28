@@ -25,29 +25,41 @@
     function resizePhoto() {
       $(document).ready(function() {
         $(window).resize(function() {
-          $("#bgphoto").css('padding-top', $("nav").height());
+          $("#bgphoto").css("padding-top", $("nav").height());
         }).resize();
       });
     }
 
     function hideMain() {
       $("#main").hide();
+      $("#password").show();
     }
 
     function pickDate() {
-      $("#datepicker").pickadate();
+      $("#datepicker").pickadate({
+        format: 'mmmm d, yyyy',
+      });
+    }
+
+    function checkDate() {
+      if ($("#datepicker").val() === "April 15, 2018") {
+        $("#main").show();
+        $("#password").hide();
+      } 
+    }
+
+    function setChanger() {
+      $("#datepicker").change(checkDate);
     }
   </script>
 </head>
-<body onload="resizePhoto(); hideMain(); pickDate(); ">
+<body onload="resizePhoto(); hideMain(); setChanger(); pickDate(); ">
   <div id="password">
     <div id="passwordform">
       <p>
-        To access this website, please enter the wedding date:
+        To access this website, please select the wedding date:
       </p>
-      <form>
-        <input id="datepicker" type="text" /><input id="datesubmit" type="submit" value="Enter" />
-      </form>
+      <input id="datepicker" type="text" />
     </div>
   </div>
   <div id="main">
