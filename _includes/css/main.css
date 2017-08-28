@@ -146,7 +146,6 @@ nav ul li {
   zoom:1;
   line-height:normal;
   letter-spacing:normal;
-  text-transform:uppercase;
   min-width:80px;
   line-height:60px;
   margin:0;
@@ -173,12 +172,11 @@ nav ul li:hover, nav ul li.active {
 
 .wedding h1 {
   font-family: karine;
-  font-size: 140px;
+  font-size: 200px;
 }
 
 .wedding h2 {
-  padding-top: 50px;
-  font-family: times;
+  padding-top: 80px;
   font-size: 40px;
 }
 
@@ -191,7 +189,7 @@ nav ul li:hover, nav ul li.active {
 }
 
 .firstsection {
-  padding-top: 80px;
+  padding-top: 100px;
 }
 
 .bgphotoimg {
@@ -258,7 +256,6 @@ nav ul li:hover, nav ul li.active {
   color: #000;
   font-size:15px;
   font-weight:700;
-  text-transform:uppercase;
   position:absolute;
   bottom:50px;
   left:44px;
@@ -345,7 +342,7 @@ nav ul li:hover, nav ul li.active {
 
 /* mid size (tablets, landscapes) */
 @media only screen and (max-width: 679px) {
-  nav { font-size:11px; }
+  nav { font-size:12px; }
   nav ul li {
     min-width:60px;
     line-height:40px;
@@ -377,7 +374,7 @@ nav ul li:hover, nav ul li.active {
 
   .wedding h2 {
     padding-top: 20px;
-    font-family: Railway;
+    font-family: Raleway, Helvetica;
     font-size: 30px;
   }
 
