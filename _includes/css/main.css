@@ -4,14 +4,14 @@ html { box-sizing: border-box; }
 html { max-width: 700px; margin: auto; }
 body {
     text-align: center;
-    background-image: url("img/bg_smaller.jpg");
+    background-image: url("img/bg_yard.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center; 
     background-size: cover;
 }
 #main { display: none; }
-#col { max-width: 700px; margin: auto; opacity: 0.85; }
+#col { max-width: 700px; margin: auto; opacity: 0.95; }
 
 @font-face {
     font-family: karine; src: url("fnt/karine_aime_les_chocolats.ttf");
@@ -231,7 +231,7 @@ nav ul li:hover, nav ul li.active {
 }
 
 .lastsection {
-  padding-bottom: 30px;
+  padding-bottom: 50px;
 }
 
 .bgphotoimg {
@@ -402,6 +402,10 @@ nav ul li:hover, nav ul li.active {
 
   .firstsection {
     padding-top: 50px;
+  }
+
+  .lastsection {
+    padding-bottom: 30px;
   }
 
   #passwordform {
