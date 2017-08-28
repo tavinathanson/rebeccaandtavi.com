@@ -180,7 +180,7 @@ nav ul li:hover, nav ul li.active {
   height: 130px;
   margin: auto;
   position: absolute;
-  top: 0; left: 0; bottom: 0; right: 0;
+  top: 0; left: 0; bottom: 20px; right: 0;
 }
 
 #password #datepicker {
