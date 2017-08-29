@@ -251,9 +251,9 @@ nav ul li:hover, nav ul li.active {
 .subtlecircle {
   text-align:center;
   z-index:3;
-  border-radius:50%;
-  -moz-border-radius:50%;
-  -webkit-border-radius:50%;
+  border-radius:40% 20% 20% 20%;
+  -moz-border-radius:40% 20% 20% 20%;
+  -webkit-border-radius:40% 20% 20% 20%;
   background-size: cover;
 }
 
@@ -296,21 +296,21 @@ nav ul li:hover, nav ul li.active {
 
 .sectiondivider h5 {
   color: #000;
-  font-size:15px;
+  font-size:20px;
   font-weight:700;
   position:absolute;
-  bottom:50px;
-  left:44px;
+  bottom:27px;
+  left:33px;
   text-align:center;
   display:block;
   z-index:6;
-  width:180px;
+  width:200px;
 }
 
 .circle-title {
-  border-radius: 15px 15px 15px 15px;
-  background: rgba(255,255,255,0.5);
-  padding: 5px 5px 4px 5px;
+  border-radius: 20px 20px 20px 20px;
+  background: rgba(255,255,255,0.65);
+  padding: 10px 10px 10px 10px;
 }
 
 .sectiondivider.imaged {
@@ -440,10 +440,14 @@ nav ul li:hover, nav ul li.active {
     margin-top: -14px;
   }
   .sectiondivider h5 {
-    font-size:13px;
-    bottom:40px;
-    width:140px;
-    left:30px;
+    font-size:16px;
+    bottom:18px;
+    width:160px;
+    left:20px;
+  }
+
+  .circle-title {
+    padding: 8px 8px 6px 8px;
   }
 
   .columned {

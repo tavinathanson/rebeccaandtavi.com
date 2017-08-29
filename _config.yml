@@ -20,12 +20,12 @@ google_analytics_key: ## put YOUR key here to enable tracking! (blank to disable
 
 ### template colors, used site-wide via css ###
 colors:
-  one:    '#ffb3ba'
-  two:    '#ffdfba'
-  three:  '#ffffba'
-  four:   '#baffc9'
-  five:   '#bae1ff'
-  six:   '#ffb3ba'
+  one:    '#ffffff' ###'#ffb3ba'
+  two:    '#edf8ff' ###'#ffdfba'
+  three:  '#ffffff' ###'#ffffba'
+  four:   '#edf8ff' ###'#baffc9'
+  five:   '#ffffff' ###'#bae1ff'
+  six:   '#edf8ff' ###'#ffb3ba'
 
 kramdown:
   auto_ids:  false
