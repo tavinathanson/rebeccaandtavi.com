@@ -19,6 +19,14 @@
   <script src="js/picker.date.js"></script>
   <link href='http://fonts.googleapis.com/css?family=Raleway:400,300,700' rel='stylesheet' type='text/css'>
   <script type="text/javascript">
+    function secretBypass() {
+      var query = window.location.href;
+      if (query.indexOf("?secret") !== -1) {
+        return true;
+      }
+      return false;
+    }
+
     function resizePhoto() {
       $(document).ready(function() {
         $(window).resize(function() {
@@ -32,6 +40,11 @@
       $("#password").show();
     }
 
+    function showMain() {
+      $("#main").show();
+      $("#password").hide();
+    }
+
     function pickDate() {
       $("#datepicker").pickadate({
         format: 'mmmm d, yyyy',
@@ -40,8 +53,7 @@
 
     function checkDate() {
       if ($("#datepicker").val() === "April 15, 2018") {
-        $("#main").show();
-        $("#password").hide();
+        showMain();
         resizePhoto();
       } 
     }
@@ -49,9 +61,22 @@
     function setChanger() {
       $("#datepicker").change(checkDate);
     }
+
+    function load() {
+      resizePhoto();
+
+      if (secretBypass()) {
+        showMain();
+      }
+      else {
+        hideMain();
+        setChanger();
+        pickDate();
+      }
+    }
   </script>
 </head>
-<body onload="resizePhoto(); hideMain(); setChanger(); pickDate(); ">
+<body onload="load()">
   <div id="password">
     <div id="passwordform">
       <p>
