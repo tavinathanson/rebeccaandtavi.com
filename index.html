@@ -63,15 +63,15 @@
     }
 
     function load() {
-      resizePhoto();
-
       if (secretBypass()) {
         showMain();
+        resizePhoto();
       }
       else {
         hideMain();
         setChanger();
         pickDate();
+        resizePhoto();
       }
     }
   </script>
