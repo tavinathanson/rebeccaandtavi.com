@@ -218,6 +218,7 @@ nav ul li:hover, nav ul li.active {
   font-size: 30px;
   padding-bottom: 40px;
   color: #2e2e2e;
+  font-weight: normal;
 }
 
 .section {
@@ -235,6 +236,7 @@ nav ul li:hover, nav ul li.active {
   padding-top: 100px;
   padding-left: 40px;
   padding-right: 40px;
+  padding-bottom: 250px;
 }
 
 .lastsection {
@@ -253,7 +255,12 @@ nav ul li:hover, nav ul li.active {
   background-color:#2e2e2e;
   background-image:none;
 }
-#footer .container p { font-size:13px; margin:0; }
+#footer .container p { font-size:13px; margin:0; color: #fff; }
+
+#footer a {
+  color: #a0c4ff;
+  text-decoration: none;
+}
 
 .subtlecircle {
   text-align:center;
@@ -409,6 +416,7 @@ nav ul li:hover, nav ul li.active {
 
   .firstsection {
     padding-top: 50px;
+    padding-bottom: 180px;
   }
 
   .lastsection {
