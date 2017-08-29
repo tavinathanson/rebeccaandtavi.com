@@ -212,7 +212,7 @@ nav ul li:hover, nav ul li.active {
 .wedding h2 {
   padding-top: 80px;
   font-size: 30px;
-  padding-bottom: 60px;
+  padding-bottom: 40px;
 }
 
 .section {
@@ -220,7 +220,7 @@ nav ul li:hover, nav ul li.active {
   display:block;
   width:100%;
   min-height:300px;
-  padding:150px 0;
+  padding-bottom:200px;
   padding-left: 80px;
   padding-right: 80px;
   padding-top: 140px;
@@ -400,7 +400,7 @@ nav ul li:hover, nav ul li.active {
 	.container h3 { font-size: 20px; }
 	.container h4 { font-size: 18px; }
 
-  .section { padding:100px 0; padding-bottom: 115px; }
+  .section { padding:100px 0; padding-bottom: 150px; }
 
   .firstsection {
     padding-top: 50px;
@@ -424,7 +424,7 @@ nav ul li:hover, nav ul li.active {
     padding-top: 20px;
     font-family: Raleway, Helvetica;
     font-size: 18px;
-    padding-bottom: 40px;
+    padding-bottom: 20px;
   }
 
   .sectiondivider {
