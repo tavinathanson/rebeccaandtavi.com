@@ -10,6 +10,9 @@ Our wedding ceremony and reception will take place at the Hyatt Regency, Princet
 
 ### Schedule
 
-**Saturday, April 14, 2018**, we will host a midday open house brunch at Rebecca's mom's house in West Windsor, NJ for guests who are in town. Saturday evening we will enjoy dinner at a restaurant nearby.
+Our wedding ceremony and reception will take place at the Hyatt Regency, Princeton NJ 
+102 Carnegie Center Dr, Princeton, NJ 08540
 
-**Sunday, April 15, 2018** late afternoon ceremony followed by reception at the Hyatt Regency, Princeton, NJ
+**Saturday, April 14, 2018**, we will host a midday open house brunch in West Windsor, NJ for guests who are in town. Saturday evening you are invited to join us for dinner at a restaurant nearby.
+
+**Sunday, April 15, 2018** late afternoon ceremony followed by reception with dinner and dancing at the Hyatt Regency. Cocktail attire // Suit and tie 
