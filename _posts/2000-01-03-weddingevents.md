@@ -5,9 +5,6 @@ style: left
 color: black
 circlephoto: circlephoto2
 ---
-Our wedding ceremony and reception will take place at the Hyatt Regency, Princeton NJ 
-102 Carnegie Center Dr, Princeton, NJ 08540
-
 ### Schedule
 
 Our wedding ceremony and reception will take place at the Hyatt Regency, Princeton NJ 
