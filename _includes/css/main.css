@@ -98,6 +98,9 @@ hr {
   color: #3463af;
   padding: 0 4%;
 }
+.container h4 {
+  font-size: 16px;
+}
 .container p, .container ol, .container ul {
   font-size: 14px;
   padding: 0 5%;
@@ -415,7 +418,7 @@ nav ul li:hover, nav ul li.active {
 	.container h1 { font-size: 18px; }
 	.container h2 { font-size: 18px; }
 	.container h3 { font-size: 18px; }
-	.container h4 { font-size: 18px; }
+	.container h4 { font-size: 16px; }
 
   .section { padding:100px 0; padding-bottom: 150px; }
 
