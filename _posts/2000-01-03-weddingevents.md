@@ -14,4 +14,4 @@ Our wedding ceremony and reception will take place at the [Hyatt Regency Princet
 * **Evening** (details to come): we will have a pizza dinner at the West Windsor firehouse.
 
 #### Sunday, April 15, 2018
-* **The Wedding!** Late afternoon ceremony followed by reception with dinner and dancing (details to come) at the Hyatt Regency. Cocktail attire **//** Suit and tie 
+* **The Wedding!** Late afternoon ceremony followed by reception with dinner and dancing (details to come) at the Hyatt Regency.<br />Cocktail attire **//** Suit and tie 
