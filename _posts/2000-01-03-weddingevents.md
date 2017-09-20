@@ -15,3 +15,6 @@ Our wedding ceremony and reception will take place at the [Hyatt Regency Princet
 
 #### Sunday, April 15, 2018
 * **The Wedding!** Late afternoon ceremony followed by reception with dinner and a lot of dancing (details to come) at the Hyatt Regency.<br />Cocktail attire **//** Suit and tie 
+
+#### Monday, April 16, 2018
+* **Morning**: We will arrange for a breakfast for guests who are still in town (location and details to come).
