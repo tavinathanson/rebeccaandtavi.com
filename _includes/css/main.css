@@ -13,6 +13,7 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center; 
+    background-size: cover;
 }
 #main { display: none; }
 #col { max-width: 700px; margin: auto; opacity: 0.95; }
