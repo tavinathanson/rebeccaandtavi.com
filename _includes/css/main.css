@@ -483,10 +483,4 @@ nav ul li:hover, nav ul li.active {
       font-family: karine;
       font-size: 80px;
     }
-
-    html {
-      background-attachment: auto;
-      background-position: auto;
-      background-size: auto;
-    }
 }
