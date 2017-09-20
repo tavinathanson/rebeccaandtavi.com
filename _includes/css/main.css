@@ -4,7 +4,7 @@ html { box-sizing: border-box; }
 html {
     max-width: 700px;
     margin: auto;
-    background-image: url("img/bg_yard_small.jpg");
+    background-image: url("img/bg_yard.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center; 
