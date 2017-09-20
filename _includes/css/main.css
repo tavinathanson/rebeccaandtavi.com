@@ -8,9 +8,11 @@ html {
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center; 
+    height: 100%;
 }
 body {
     text-align: center;
+    min-height: 100%;
 }
 #main { display: none; }
 #col { max-width: 700px; margin: auto; opacity: 0.95; }
