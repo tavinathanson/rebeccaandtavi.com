@@ -1,6 +1,6 @@
 ---
 title: "Accommodations"
-bg: five
+bg: four
 style: left
 color: black
 circlephoto: circlephoto4
