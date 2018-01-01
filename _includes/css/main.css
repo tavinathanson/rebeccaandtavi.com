@@ -216,6 +216,20 @@ nav ul li:hover, nav ul li.active {
   margin-left: 20px;
 }
 
+#yesform {
+  display: none;  
+}
+
+#yesform.expand {
+  display: block;
+}
+
+#rsvpdiv .submit {
+  display: block;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
 #password {
   display: none;
 }
