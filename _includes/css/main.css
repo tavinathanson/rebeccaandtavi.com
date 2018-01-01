@@ -198,13 +198,23 @@ nav ul li:hover, nav ul li.active {
   padding: 0px 0px;
 }
 
-#rsvpdiv input {
+#rsvpdiv .rsvptext {
   font-size: 15px;
   color: #66666;
   padding: 6px;
   margin: 25px auto 20px;
   display: block;
   width: 90%;  
+}
+
+#rsvpdiv .rsvpcheck {
+  display: inline;
+}
+
+#rsvpdiv .rsvpchecklab {
+  margin-left: 20px;
+  font-size: 15px;
+  display: inline;
 }
 
 #password {
