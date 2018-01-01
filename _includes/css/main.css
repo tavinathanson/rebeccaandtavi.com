@@ -207,6 +207,10 @@ nav ul li:hover, nav ul li.active {
   width: 90%;  
 }
 
+#rsvpdiv p {
+  margin-bottom: 10px;
+}
+
 #rsvpdiv .radio {
   display: inline;
   margin-left: 20px;
