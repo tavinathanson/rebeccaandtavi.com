@@ -192,6 +192,21 @@ nav ul li:hover, nav ul li.active {
 
 /* ----- sections/articles ----- */
 
+#rsvpdiv {
+  width: 400px;
+  margin: 50px auto;
+  padding: 0px 0px;
+}
+
+#rsvpdiv input {
+  font-size: 15px;
+  color: #66666;
+  padding: 6px;
+  margin: 25px auto 20px;
+  display: block;
+  width: 90%;  
+}
+
 #password {
   display: none;
 }
@@ -297,6 +312,10 @@ nav ul li:hover, nav ul li.active {
 
 .circlephoto5 {
   background-image: url("img/mountain_small.jpg");
+}
+
+.circlephoto6 {
+  background-image: url("img/engagement_small.jpg");
 }
 
 .sectiondivider {

@@ -23,7 +23,8 @@ colors:
   three:  '#ffffff' ###'#ffffba'
   four:   '#edf8ff' ###'#baffc9'
   five:   '#ffffff' ###'#bae1ff'
-  six:   '#edf8ff' ###'#ffb3ba'
+  six:    '#edf8ff' ###'#ffb3ba'
+  seven:  '#ffffff'
 
 kramdown:
   auto_ids:  false
