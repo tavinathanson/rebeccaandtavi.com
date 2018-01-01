@@ -202,9 +202,22 @@ nav ul li:hover, nav ul li.active {
   font-size: 15px;
   color: #66666;
   padding: 6px;
-  margin: 25px auto 20px;
+  margin: 5px auto 20px;
   display: block;
   width: 90%;  
+}
+
+#rsvpdiv .rsvpnum {
+  font-size: 15px;
+  color: #66666;
+  padding: 6px;
+  margin: 5px auto 20px;
+  display: inline;
+  width: 50px;  
+}
+
+#rsvpdiv table {
+  margin-left: 20px;
 }
 
 #rsvpdiv p {
