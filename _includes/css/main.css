@@ -207,14 +207,9 @@ nav ul li:hover, nav ul li.active {
   width: 90%;  
 }
 
-#rsvpdiv .rsvpcheck {
+#rsvpdiv .radio {
   display: inline;
-}
-
-#rsvpdiv .rsvpchecklab {
   margin-left: 20px;
-  font-size: 15px;
-  display: inline;
 }
 
 #password {
