@@ -14,6 +14,7 @@ body {
     background-attachment: fixed;
     background-position: center; 
     background-size: cover;
+    font-family: Poppins, Helvetica;
 }
 #main { display: none; }
 #col { max-width: 700px; margin: auto; opacity: 0.95; }
@@ -327,7 +328,7 @@ nav ul li:hover, nav ul li.active {
 
 .sectiondivider h5 {
   color: #000;
-  font-size:20px;
+  font-size:19px;
   font-weight:700;
   position:absolute;
   bottom:27px;
@@ -452,7 +453,7 @@ nav ul li:hover, nav ul li.active {
 
   .wedding h2 {
     padding-top: 20px;
-    font-family: Raleway, Helvetica;
+    font-family: Poppins, Helvetica;
     font-size: 18px;
     padding-bottom: 20px;
   }
