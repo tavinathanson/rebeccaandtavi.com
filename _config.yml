@@ -19,12 +19,13 @@ title:       "Rebecca & Tavi"
 ### template colors, used site-wide via css ###
 colors:
   one:    '#ffffff' ###'#ffb3ba'
-  two:    '#edf8ff' ###'#ffdfba'
+  two:    '#ECEDF7' ###'#ffdfba'
   three:  '#ffffff' ###'#ffffba'
-  four:   '#edf8ff' ###'#baffc9'
+  four:   '#ECEDF7' ###'#baffc9'
   five:   '#ffffff' ###'#bae1ff'
-  six:   '#edf8ff' ###'#ffb3ba'
+  six:   '#ECEDF7' ###'#ffb3ba'
   seven:  '#ffffff'
+  eight:  '#ECEDF7'
 
 kramdown:
   auto_ids:  false
