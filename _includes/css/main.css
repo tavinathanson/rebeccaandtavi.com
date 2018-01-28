@@ -40,17 +40,13 @@ body {
     background-attachment: fixed;
     background-position: center; 
     background-size: cover;
-    font-family: Poppins, Helvetica;
+    font-family: Raleway, Helvetica;
 }
 #main { display: none; }
 #col { max-width: 700px; margin: auto; opacity: 0.95; }
 
 @font-face {
     font-family: karine; src: url("fnt/karine_aime_les_chocolats.ttf");
-}
-
-@font-face {
-    font-family: Poppins; src: url("fnt/Poppins-Regular.ttf");
 }
 
 /* ---------------------------*/
@@ -491,7 +487,7 @@ div#rsvp iframe {
 
   .wedding h2 {
     padding-top: 20px;
-    font-family: Poppins, Helvetica;
+    font-family: Raleway, Helvetica;
     font-size: 18px;
     padding-bottom: 20px;
   }
