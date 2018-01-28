@@ -1,6 +1,32 @@
 html { box-sizing: border-box; }
 *, *:before, *:after { box-sizing: inherit; }
 
+/**
+ * From https://www.lockedowndesign.com/firefox-font-weight-too-bold/
+ *
+ * Fix fonts that render as bold in Firefox
+ *
+ * Put this near the top of your style.css
+ * Before any overriding styles
+ */
+
+html {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+  font-weight: 400;
+}
+
+/**
+ * Firefox specific rule
+ */
+
+@-moz-document url-prefix() {
+  body {
+    font-weight: lighter !important;
+  }
+}
+
 html {
     max-width: 700px;
     margin: auto;
@@ -21,6 +47,10 @@ body {
 
 @font-face {
     font-family: karine; src: url("fnt/karine_aime_les_chocolats.ttf");
+}
+
+@font-face {
+    font-family: Poppins; src: url("fnt/Poppins-Regular.ttf");
 }
 
 /* ---------------------------*/
@@ -232,7 +262,6 @@ nav ul li:hover, nav ul li.active {
   font-size: 30px;
   padding-bottom: 40px;
   color: #2e2e2e;
-  font-weight: normal;
 }
 
 .section {
@@ -307,6 +336,15 @@ nav ul li:hover, nav ul li.active {
 
 .circlephoto6 {
   background-image: url("img/engagement_small.jpg");
+}
+
+.circlephoto7 {
+  background-image: url("img/rk_happy.jpg");
+}
+
+div#rsvp iframe {
+  margin-top: 30px;
+  background-color: #edf8ff;
 }
 
 .sectiondivider {
