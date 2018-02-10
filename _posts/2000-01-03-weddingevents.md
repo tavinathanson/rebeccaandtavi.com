@@ -13,7 +13,7 @@ Our wedding ceremony and reception will take place at the **[Hyatt Regency Princ
 * **Open House (12pm to 4pm)**: We will be hosting an open house get together for guests who are in town. Stop by any time!<br />
 [*21 Greenfield Drive South, West Windsor, NJ 08550*](https://goo.gl/maps/9a5tELj8EmL2)<br />
 *Casual attire*
-* **Pizza Night (6pm to 8pm)**: Relax with us the night before the wedding over pizza at the West Windsor firehouse community room.<br />
+* **Pizza Night (6pm to 8:30pm)**: Relax with us the night before the wedding over pizza at the West Windsor firehouse community room.<br />
 [*153 South Mill Road, West Windsor, NJ 08550*](https://goo.gl/maps/nG9oLi6i1nF2)<br />
 *Casual attire*
 
