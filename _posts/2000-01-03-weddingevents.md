@@ -10,10 +10,10 @@ circlephoto: circlephoto2
 Our wedding ceremony and reception will take place at the **[Hyatt Regency Princeton](https://aws.passkey.com/go/kaufmannathanson)**: [102 Carnegie Center Drive, Princeton, NJ 08540](https://goo.gl/maps/UgqVQbZ1GvN2).
 
 #### Saturday, April 14, 2018
-* **Open House (12pm to 4pm)**: We will be hosting an open house get together for guests who are in town. Stop by any time!<br />
+* **Open House (12pm to 4pm)**: Stop by any time for an open house get together!<br />
 [*21 Greenfield Drive South, West Windsor, NJ 08550*](https://goo.gl/maps/9a5tELj8EmL2)<br />
 *Casual attire*
-* **Pizza Night (6pm to 8:30pm)**: Relax with us the night before the wedding over pizza at the West Windsor firehouse community room.<br />
+* **Pizza Night (6pm to 8:30pm)**: Relax with us the night before the wedding over pizza and pasta at the West Windsor firehouse community room.<br />
 [*153 South Mill Road, West Windsor, NJ 08550*](https://goo.gl/maps/nG9oLi6i1nF2)<br />
 *Casual attire*
 
